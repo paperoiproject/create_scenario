@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "PaPeRo エディタ",
+  "name": "PaPeRo の シナリオエディタ",
   "icons": [
     {
       "src": "favicon.ico",

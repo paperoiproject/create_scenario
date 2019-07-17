@@ -1,0 +1,38 @@
+    /*
+    //保存するなら
+    var tmp = cropperRef
+      .getCroppedCanvas()
+      .toDataURL()
+      .split(",");
+    var data = atob(tmp[1]);
+    var mime = tmp[0].split(":")[1].split(";")[0]
+    var buf = new Uint8Array(data.length)
+    for (var i = 0; i < data.length; i++) {
+      buf[i] = data.charCodeAt(i);
+    }
+    var blob = new Blob([buf], { type: mime });
+    var url = window.URL || window.webkitURL;
+    var dataUrl = url.createObjectURL(blob);
+    var event = document.createEvent("MouseEvents");
+    event.initMouseEvent(
+      "click",
+      true,
+      false,
+      window,
+      0,
+      0,
+      0,
+      0,
+      0,
+      false,
+      false,
+      false,
+      false,
+      0,
+      null
+    );
+    var a = document.createElementNS("http://www.w3.org/1999/xhtml", "a")
+    a.href = dataUrl
+    a.download = "cropImage"
+    a.dispatchEvent(event)
+    */
